@@ -1,0 +1,105 @@
+.app.dark{
+    background-color: #111;
+    color: rgb(156, 156, 156);
+
+    .chartgrid{
+        stroke: rgb(228,225,225);
+    }
+
+    .table{
+        background-color:#111 ;
+
+
+        .tableCell{
+        color: gray;
+        }
+    }
+
+
+    .navbar{
+        color: #999;
+        border-color: #333;
+
+        .search{
+         border-color:gray ;   
+
+         input{
+             color: #999;
+         }
+         .icon{
+             color: #999;
+            
+         }
+        }
+    }
+
+    .sidebar{
+        background-color: #111;
+        border-color: #333;
+
+
+        .top{
+
+            .logo{
+                color: #999;
+            }
+        }
+
+        hr{
+            border-color: #333;
+        }
+
+        ul{
+
+            li{
+
+                &:hover{
+                    background-color: #333;
+                }
+
+                .icon{
+                      color: #999;
+                }
+            }
+        }
+    }
+
+    .datatable{
+        .dataGrid{
+            color: gray;
+            border: none;
+
+
+            .viewButton,.DeletButton,.cellWithStatus{
+                color: gray;
+                border: none;
+            }
+        }
+    }
+
+    input{
+        background-color: transparent;
+    }
+
+    .widget{
+        -webkit-box-shadow: 2px 4px 10px 1px rgba(110 ,110 ,110, 0.47%);
+        box-shadow: 2px 4px 10px 1px rgba(110 ,110 ,110, 0.47%);
+    }
+
+    .chart{
+        -webkit-box-shadow: 2px 4px 10px 1px rgba(110 ,110 ,110, 0.47%);
+        box-shadow: 2px 4px 10px 1px rgba(110 ,110 ,110, 0.47%);
+
+    
+    }
+
+    .featured{
+        -webkit-box-shadow: 2px 4px 10px 1px rgba(110 ,110 ,110, 0.47%);
+        box-shadow: 2px 4px 10px 1px rgba(110 ,110 ,110, 0.47%);
+    }
+
+    .listcontainer{
+        -webkit-box-shadow: 2px 4px 10px 1px rgba(110 ,110 ,110, 0.47%);
+        box-shadow: 2px 4px 10px 1px rgba(110 ,110 ,110, 0.47%);
+    }
+}
